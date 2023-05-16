@@ -1,0 +1,47 @@
+baseURL = 'https://alfredvalderrama.gitops.codes'
+languageCode = 'en-us'
+title = 'Alfred Valderrama | DevOps and Cloud Native Freelance Consulting'
+theme = 'hugo-goa'
+
+[params]
+  #editURL = ""
+  # Author of the site, will be used in meta information
+  author = "Alfred Valderrama | DevOps and Cloud Native Freelance Consulting"
+  intro = "Hi!"
+  # Description of the site, will be used in meta information
+  description = "I love automation! <br /> I'm a DevOps enthusiast! <br /> Contact me! <br /> Hire me. "
+  titleSeparator = "-"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  authorimage = "profilepic.jpg"
+  weight = 70
+
+[params.meta]
+  description = "DevOps Engineer"
+  keywords = "devops engineer,cloud engineer,developer,penetration tester"
+
+[params.social]
+  github = "redopsbay"
+  linkedin = "alfred-valderrama-520381157"
+  devto = "redopsbay"
+  email = "alfred@gitops.codes"
+  twitter = "redopsbay"
+  gitlab = "redopsbay"
+  weight = 70
+
+[[menu.main]]
+    name = "GitHub"
+    weight = 100
+    url = "https://github.com/redopsbay"
+
+[[menu.main]]
+    name = "Linkedin"
+    weight = 100
+    url = "https://www.linkedin.com/in/alfred-valderrama-520381157"
+
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 50
