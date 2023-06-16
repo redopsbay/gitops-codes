@@ -1,4 +1,4 @@
-baseURL = 'https://alfredvalderrama.gitops.codes'
+baseURL = 'https://alfredvalderrama.website'
 languageCode = 'en-us'
 title = 'Alfred Valderrama | DevOps and Cloud Native Freelance Consulting'
 theme = 'hugo-goa'
@@ -25,7 +25,7 @@ theme = 'hugo-goa'
   github = "redopsbay"
   linkedin = "alfred-valderrama-520381157"
   devto = "redopsbay"
-  email = "alfred@gitops.codes"
+  email = "alfred98valderrama@gmail.com"
   twitter = "redopsbay"
   gitlab = "redopsbay"
   weight = 70

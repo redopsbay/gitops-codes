@@ -1,6 +1,6 @@
 # My Hugo Site 😎
 
-[https://alfredvalderrama.gitops.codes](https://alfredvalderrama.gitops.codes)
+[https://alfredvalderrama.website](https://alfredvalderrama.website)
 
 # Hugo Development 🚧 ##
 
@@ -22,7 +22,7 @@ git submodule add https://github.com/kaapiandcode/hugo-goa themes/hugo-goa
 ### Starting hugo server
 ```bash
 docker run --rm -it \
-    -v "$(pwd)":/src \
+    -v $(pwd):/src \
     -p 1313:1313 \
     klakegg/hugo:0.107.0-ext-ubuntu \
   server --disableFastRender --navigateToChanged
@@ -36,7 +36,7 @@ docker run --rm -it \
     klakegg/hugo:0.107.0-ext-ubuntu \
     --gc \
     --minify \
-    --baseURL "https://alfredvalderrama.gitops.codes"
+    --baseURL "https://alfredvalderrama.website"
 ```
 
 ### Running the static site
