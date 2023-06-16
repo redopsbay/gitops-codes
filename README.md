@@ -32,7 +32,7 @@ docker run --rm -it \
 ### Compiling the hugo site
 ```bash
 docker run --rm -it \
-    -v $(pwd):/src \
+    -v $(pwd)/hugo:/src \
     klakegg/hugo:0.107.0-ext-ubuntu \
     --gc \
     --minify \
